@@ -15,6 +15,11 @@ public class Tabuada {
             for(int i = 0 ; i <= 10 ; i++){
                 System.out.println("Tabuada do " + N + " x " + i + " = "+ N * i );
             }
+
+            for(int i = 0 ; i <= 10 ; i++){
+                System.out.println("Tabuada do " + N + " x " + i + " = "+ N - i );
+            }
+            
        
         sc.close();
     }
