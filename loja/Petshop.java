@@ -17,9 +17,11 @@ public class Petshop {
         animal.setEstadoDoEspirito("Seu amigão esta com saudade:( ");
     }
 
-    @Override
-    public String toString() {
-        return "Petshop []";
-    }
+    /*
+     * @Override
+     * public String toString() {
+     * return "Petshop []";
+     * }
+     */
 
 }

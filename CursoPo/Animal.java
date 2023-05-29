@@ -1,6 +1,6 @@
 package CursoPo;
 
-public class Animal {
+public abstract class Animal {
     protected String nome;
     protected String cor;
     protected int altura;
