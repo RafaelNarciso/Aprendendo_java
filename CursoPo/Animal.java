@@ -8,16 +8,12 @@ public abstract class Animal {
     protected String estadoDoEspirito;
 
     public void comer() {
-
     }
 
     public void dormir() {
-
     }
 
-    public void soar() {
-        System.out.println(" Cri cri");
-    }
+    public abstract void soar();
 
     public Animal(String nome, String cor, int altura, double peso, String estadoDoEspirito) {
         this.nome = nome;

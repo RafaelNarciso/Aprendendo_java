@@ -6,11 +6,10 @@ public class Passaro extends Animal {
 
         super(nome, cor, altura, peso, estadoDoEspirito);
     }
-    /*
-     * @Override
-     * public void soar() {
-     * System.out.println("PIU PIU !!");
-     * }
-     */
+
+    @Override
+    public void soar() {
+        System.out.println("O passaro faz, PIU PIU !!");
+    }
 
 }

@@ -105,17 +105,17 @@ public class Cachorro extends Animal {
         }
         return this.estadoDoEspirito;
     }
-    /*
-     * @Override
-     * public String toString() {
-     * 
-     * return "Cachorro {" + nome +" }";
-     * }
-     * 
-     * @Override
-     * public void soar() {
-     * 
-     * System.out.println("AU AU");
-     * }
-     */
+
+    @Override
+    public String toString() {
+
+        return "Cachorro {" + nome + " }";
+    }
+
+    @Override
+    public void soar() {
+
+        System.out.println("O cachorro faz, AU AU");
+    }
+
 }
