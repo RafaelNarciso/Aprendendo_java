@@ -14,7 +14,7 @@ public class PrincipalPetz {
         System.out.println("\n__________________________________________________________________________________");
         System.out.println("Aqui utilizamos o método de abstract -> public abstract void soar();");
         System.out.println("para que as classe filha possam executar a  sua propira função soar ,");
-        System.out.println(" sem a necessidade de ficar repetindo.");
+        System.out.println(" sem a necessidade de ficar repetindo .");
         cachorro1.soar();
         gato1.soar();
         passaro1.soar();
