@@ -1,6 +1,7 @@
 package CursoPo.Agendas_datas;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
@@ -31,8 +32,15 @@ public class Datas {
 
         // para formatar as datas
         DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yy");
-        System.out.println("Data atual : " + hoje.format(formatador));
+        System.out.println("Data atual no padrao brasil: " + hoje.format(formatador));
 
+        // para saber a hora e a data formato internacional
+        LocalDateTime agora = LocalDateTime.now();
+        System.out.println("Data e hora internacional: " + agora);
+
+        // para formada a data e hora
+        DateTimeFormatter formatador_horas = DateTimeFormatter.ofPattern("dd/MM/yy hh:mm:ss");
+        System.out.println("\nData e hora  :" + agora.format(formatador_horas));
     }
 
 }
