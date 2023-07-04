@@ -1,4 +1,4 @@
-package CursoPo.Agendas_datas;
+package Agendas_datas;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
