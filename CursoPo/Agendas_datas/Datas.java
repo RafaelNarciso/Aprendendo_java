@@ -38,7 +38,7 @@ public class Datas {
         LocalDateTime agora = LocalDateTime.now();
         System.out.println("Data e hora internacional: " + agora);
 
-        // para formada a data e hora
+        // para formada a data e hora (HH =horas 24 hh / =12horas)
         DateTimeFormatter formatador_horas = DateTimeFormatter.ofPattern("dd/MM/yy hh:mm:ss");
         System.out.println("\nData e hora  :" + agora.format(formatador_horas));
     }
