@@ -15,7 +15,7 @@ public class Cliente {
     // ==========================================================
     private String endereco;
     private String bairro;
-    private int numeroDaCasa;
+    private String numeroDaCasa;
 
     public String getEndereco() {
         return endereco;
@@ -33,11 +33,11 @@ public class Cliente {
         this.bairro = bairro;
     }
 
-    public int getNumeroDaCasa() {
+    public String getNumeroDaCasa() {
         return numeroDaCasa;
     }
 
-    public void setNumeroDaCasa(int numero) {
+    public void setNumeroDaCasa(String numero) {
         this.numeroDaCasa = numeroDaCasa;
     }
 
